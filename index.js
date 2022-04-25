@@ -11,7 +11,7 @@
 
 //3.Javascript Veriables
 // What are veriables? - Containers to stoare data values
-var number1 = 34;
+/*var number1 = 34;
 var number2 = 56;
 console.log(number1 + number2);
 
@@ -59,9 +59,41 @@ else{
 }
 
 
-var arr = [1,2,3,4,5,6,7];
-console.log(arr);
-for(var i=0<arr.length;i++)
+//var arr = [1,2,3,4,5,6,7];
+//console.log(arr);
+//for(var i=0;i<arr.length;i++)
 {
     console.log(arr[i])
 }
+//let j = 0;
+//while(j<arr.length){
+//    console.log(arr[j])
+//    j++;
+//}
+
+//do{
+//    console.log(arr[j]);
+//    j++;
+//    while (j < arr.length);
+//}
+
+
+let myArr = ["fan" , "camera" , 34 , null , true];
+//Array Methods
+console.log(myArr.length);
+//myArr.pop();
+//myArr.push("Ankita");
+//myArr.shift();
+//myArr.unshift("ankita");
+const newLen = myArr.unshift("Anktia");
+console.log(newLen);
+console.log(myArr);
+*/
+
+let elem = document.getElementsByClassName("click");
+console.log(elem)
+
+let elemClass = document.getElementsByClassName("container");
+console.log(elemClass);
+elemClass[0].style.background = "green";
+//elemClass[0].classList.add("bg.primary");
